@@ -12,16 +12,6 @@
         <link href="https://fonts.googleapis.com/css?family=Lato:400,700,400italic,700italic" rel="stylesheet" type="text/css" />
         <link href="css/style.css" rel="stylesheet" />
     </head>
-    <?php
-    if (isset($_POST['name'])){
-        $name = $_POST['name'];
-        $email = $_POST['email'];
-        $phone = $_POST['phone'];
-        $message = $_POST['message'];
-        #header("Location: ../email?name=$name&email=$email&phone=$phone&message=$message");
-        
-    }
-    ?>
     <body id="page-top">
         <nav class="navbar navbar-expand-lg bg-secondary text-uppercase fixed-top" id="mainNav">
             <div class="container">
